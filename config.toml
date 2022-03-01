@@ -2,6 +2,17 @@ baseURL = 'https://blog.quintschaf.com/'
 languageCode = 'en-us'
 title = 'Quintschaf Devlog'
 theme = 'hugo-theme-monochrome'
+disqusShortname = 'quintschaf-blog'
 
 [build]
 writeStats = true
+
+[params]
+# SEO
+author = 'Quintschaf'
+enableOpenGraph = true
+enableTwitterCards = true
+# Features
+enableSiteSearch = true
+# Footer
+footer = 'Copyright © 2022 Quintschaf GbR'
