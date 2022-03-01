@@ -33,5 +33,3 @@ This whole experience has been amazing and we're looking forward to further impr
 While we're committed to further improving MyKeyboard, we also got a few new ideas up our sleeves and one of them is almost ready for prime-time. Once it's ready for the big reveal, you'll hear about it here first! Until then, we've got a few more blog posts in the works that might be interesting to Swift/SwiftUI developers and people interested in the field of software architecture.
 
 See you soon!
-
-{{ template "_internal/disqus.html" . }}
