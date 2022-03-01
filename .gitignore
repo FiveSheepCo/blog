@@ -1,0 +1,6 @@
+# npm/yarn
+node_modules/
+
+# hugo
+/public/
+/resources/_gen/
