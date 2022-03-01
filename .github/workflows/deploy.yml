@@ -13,11 +13,19 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Setup
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: latest
+          hugo-version: 'latest'
           extended: true
+      
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '17'
+      
+      - name: Install Dependencies
+        run: npm i
       
       - name: Cache
         uses: actions/cache@v2
@@ -28,7 +36,7 @@ jobs:
             ${{ runner.os }}-hugomod-
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --environment production -b https://blog.quintschaf.com
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -36,4 +44,5 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./public
+          publish_branch: gh-pages
           cname: blog.quintschaf.com
