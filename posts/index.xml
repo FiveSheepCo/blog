@@ -15,4 +15,5 @@ This was a first for both of us, there were many things to figure out — for ex
 &lt;p>This whole experience has been amazing and we&amp;rsquo;re looking forward to further improving MyKeyboard.&lt;/p>
 &lt;h2 id="whats-next">What&amp;rsquo;s next?&lt;/h2>
 &lt;p>While we&amp;rsquo;re committed to further improving MyKeyboard, we also got a few new ideas up our sleeves and one of them is almost ready for prime-time. Once it&amp;rsquo;s ready for the big reveal, you&amp;rsquo;ll hear about it here first! Until then, we&amp;rsquo;ve got a few more blog posts in the works that might be interesting to Swift/SwiftUI developers and people interested in the field of software architecture.&lt;/p>
-&lt;p>See you soon!&lt;/p></description></item></channel></rss>
+&lt;p>See you soon!&lt;/p>
+&lt;p>{{ template &amp;ldquo;_internal/disqus.html&amp;rdquo; . }}&lt;/p></description></item></channel></rss>
