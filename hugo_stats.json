@@ -3,9 +3,12 @@
     "tags": [
       "a",
       "article",
+      "blockquote",
       "body",
+      "br",
       "code",
       "div",
+      "em",
       "footer",
       "g",
       "h1",
@@ -117,12 +120,18 @@
     "ids": [
       "9list",
       "TableOfContents",
+      "about-the-pro-version",
+      "additionally-we-have-many-exclusive-features-swiftkey-never-had",
       "content",
       "dark_mode_btn",
       "disqus_thread",
+      "fully-interactive-layout-editor",
       "history",
+      "how-to-migrate-to-mykeyboard",
       "light_mode_btn",
+      "making-mykeyboard-feel-like-home",
       "mykeyboard",
+      "mykeyboard-to-the-rescue",
       "navbar",
       "navbar_btn",
       "navbar_sm",
@@ -132,8 +141,11 @@
       "search_menu_input",
       "search_menu_results",
       "search_menu_wrapper",
+      "swiftkey-is-gone",
       "welcome-to-our-blog",
-      "whats-next"
+      "whats-next",
+      "why-you-should-switch",
+      "why-you-shouldnt-switch"
     ]
   }
 }
