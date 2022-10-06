@@ -1,6 +1,6 @@
 baseURL = 'https://blog.quintschaf.com/'
 languageCode = 'en-us'
-title = 'Quintschaf Devlog'
+title = 'Quintschaf Blog'
 theme = 'hugo-theme-monochrome'
 disqusShortname = 'quintschaf-blog'
 
