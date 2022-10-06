@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quintschaf Devlog</title><link>https://blog.quintschaf.com/</link><description>Recent content on Quintschaf Devlog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 22:59:30 +0100</lastBuildDate><atom:link href="https://blog.quintschaf.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>https://blog.quintschaf.com/posts/welcome/</link><pubDate>Tue, 01 Mar 2022 22:59:30 +0100</pubDate><guid>https://blog.quintschaf.com/posts/welcome/</guid><description>&lt;h1 id="welcome-to-our-blog">Welcome to our blog!&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quintschaf Devlog</title><link>https://blog.quintschaf.com/</link><description>Recent content on Quintschaf Devlog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Oct 2022 18:08:46 +0200</lastBuildDate><atom:link href="https://blog.quintschaf.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrating from SwiftKey</title><link>https://blog.quintschaf.com/posts/migrating-from-swiftkey/</link><pubDate>Thu, 06 Oct 2022 18:08:46 +0200</pubDate><guid>https://blog.quintschaf.com/posts/migrating-from-swiftkey/</guid><description>&lt;h1 id="swiftkey-is-gone">SwiftKey is gone&lt;/h1>
+&lt;p>On September 28th 2022, Microsoft announced that it would pull the popular keyboard &lt;strong>SwiftKey&lt;/strong> from Apple&amp;rsquo;s AppStore. The announcement came suddenly and without much time to react. As of October 5th 2022, SwiftKey is no longer available on the AppStore.&lt;/p>
+&lt;p>If you&amp;rsquo;re one of the people impacted, you&amp;rsquo;ll now have to make a hard decision:&lt;/p>
+&lt;blockquote>
+&lt;p>Either keep using SwiftKey or find a new Keyboard to use.&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a bit of a dilemma, since none of these options are good. Starting a few days ago, many people have been reporting issues with SwiftKey. Quite the coincidence that a keyboard which used to run perfectly for years is suddenly misbehaving a few days before being shut down&amp;hellip; Anyway, even if it would work fine, it&amp;rsquo;s not getting any updates and as soon as you get a new device, it&amp;rsquo;s gone.&lt;/p>
+&lt;p>Now, choosing another keyboard is pretty hard. Ideally it should have a similar feature set to SwiftKey, behave similarly and be easy enough to use and customize. Just like SwiftKey, it should also be free.&lt;/p>
+&lt;h2 id="mykeyboard-to-the-rescue">MyKeyboard to the rescue&lt;/h2>
+&lt;blockquote>
+&lt;p>It just so happens that we&amp;rsquo;re developing an app called &lt;strong>MyKeyboard&lt;/strong>.&lt;/p>
+&lt;/blockquote>
+&lt;p>It has tons of features, it&amp;rsquo;s easy to use and customize, and — best of all — &lt;strong>it&amp;rsquo;s free&lt;/strong>. We do have a paid version, but you won&amp;rsquo;t need it in order to do any of the things you&amp;rsquo;re used to from SwiftKey.&lt;/p>
+&lt;p>To make migration easier we have published a new version, which lets you import your custom word list from SwiftKey. That&amp;rsquo;s possible because Microsoft provides a website for downloading your data (&lt;a href="https://data.swiftkey.com">https://data.swiftkey.com&lt;/a>).&lt;/p>
+&lt;p>We would&amp;rsquo;ve loved to migrate other settings too, sadly the export only includes your custom word list and nothing else that we could use to make certain changes automatically.&lt;/p>
+&lt;h2 id="how-to-migrate-to-mykeyboard">How to migrate to MyKeyboard&lt;/h2>
+&lt;blockquote>
+&lt;p>Simply download the app from here: &lt;a href="https://apps.apple.com/app/mykeyboard-custom-keyboard/id1455404109">MyKeyboard on the AppStore&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>After installing MyKeyboard and going through the onboarding screen (which should only take up a minute of your time), simply go to the &lt;strong>Settings&lt;/strong> tab and tap on &lt;strong>Import Data from SwiftKey&lt;/strong>.&lt;/p>
+&lt;p>The following screen will guide you through exporting your data from SwiftKey and importing them into MyKeyboard. It&amp;rsquo;s a very simple process and shouldn&amp;rsquo;t take up much of your time.&lt;/p>
+&lt;h3 id="why-you-should-switch">Why you should switch&lt;/h3>
+&lt;p>&lt;strong>We support almost all features you&amp;rsquo;re used to from SwiftKey&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Intelligent spell checking and word suggestions&lt;/li>
+&lt;li>Support for number and emoji rows&lt;/li>
+&lt;li>Support for quick-period and quick-ellipsis&lt;/li>
+&lt;li>Support for tactile feedback, as well as typing sounds&lt;/li>
+&lt;li>Quick emoji key and a native emoji picker&lt;/li>
+&lt;li>Multi language support
+&lt;ul>
+&lt;li>UI translated into many of the most-used languages&lt;/li>
+&lt;li>Regional key layouts like QWERTY, QWERTZ, AZERTY, JCUKEN, 두벌식 etc.&lt;/li>
+&lt;li>Spell checking and suggestions in multiple languages at once&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Beautifully handcrafted themes&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Additionally, we have many exclusive features SwiftKey never had&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>A novel and extremely fast way of deleting words and sentences
+&lt;ul>
+&lt;li>Simply hold the deletion key and swipe to the left for precise deletion.&lt;/li>
+&lt;li>&amp;hellip;or just use the old and boring way of deleting. We do have that too.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Swipe-down keys in the style of the iPad keyboard
+&lt;ul>
+&lt;li>Quick access to a second key action by swiping down on a key&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Customizable delay to trigger the long-press action&lt;/li>
+&lt;li>Emoji suggestions (type fire and get 🔥 as a suggestion)&lt;/li>
+&lt;li>Dedicated keyboard modes for accessibility
+&lt;ul>
+&lt;li>Left-handed and right-handed modes&lt;/li>
+&lt;li>Split the keyboard into two by dragging from the center with two fingers&lt;/li>
+&lt;li>Merge the keyboard again by dragging towards the center with both fingers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&amp;hellip;and a lot more!&lt;/li>
+&lt;/ul>
+&lt;h3 id="why-you-shouldnt-switch">Why you shouldn&amp;rsquo;t switch&lt;/h3>
+&lt;blockquote>
+&lt;p>If you heavily rely on Swipe Typing, MyKeyboard isn&amp;rsquo;t (yet) for you.&lt;/p>
+&lt;/blockquote>
+&lt;p>A few features are still missing, the most important one being &lt;strong>Swipe Typing&lt;/strong>. We&amp;rsquo;re working hard on providing this feature as soon as possible, but it has proven very hard to implement correctly, especially considering MyKeyboard&amp;rsquo;s unique design (keys can be customized almost infinitely and while swiping, custom key configurations have to be taken into consideration).&lt;/p>
+&lt;p>There might be a few rough edges here and there, since we&amp;rsquo;re a small company of only two people and we don&amp;rsquo;t have the same resources Microsoft has. But we&amp;rsquo;re very dedicated to our products and we&amp;rsquo;re improving MyKeyboard all the time. We&amp;rsquo;re also using MyKeyboard ourselves, so if there are any issues they&amp;rsquo;ll probably annoy us too, which is a great motivation to fix them!&lt;/p>
+&lt;h2 id="about-the-pro-version">About the Pro version&lt;/h2>
+&lt;p>MyKeyboard offers some advanced features for power users, which are only available in the Pro version.&lt;/p>
+&lt;p>&lt;strong>Layout editor&lt;/strong>&lt;/p>
+&lt;p>In the free edition, we offer the Keyboard Builder: an easy way to quickly get a nice layout going. Some advanced building blocks are paid, but they&amp;rsquo;re all pretty specific to MyKeyboard. We don&amp;rsquo;t put basic or experimental features behind a paywall.&lt;/p>
+&lt;p>The layout editor available in the Pro version allows you to fully customize every aspect of the keyboard layout. You can create any layout you can think of and design spezialized keyboards for tasks that are otherwise hard to do on a phone, such as writing Markdown or Regular Expressions. Additionally, you can dive deep into key actions and customize the tap action, hold action, subkeys, sizing and more.&lt;/p>
+&lt;p>&lt;strong>Theme editor&lt;/strong>&lt;/p>
+&lt;p>In the free version, we offer a theme mimicking the default iOS look, a flat-design theme and a special &lt;em>Slava Ukraini&lt;/em> theme supporting the heroes fighting against the Russian invaders in Ukraine.&lt;/p>
+&lt;p>We also offer a few paid theme packs, as well as a full theme editor, which includes all paid themes.&lt;/p>
+&lt;p>The theme editor in the Pro version offers a fully fledged theme editor, where you can customize every aspect of the keyboard&amp;rsquo;s look and feel. From font and text size over paddings, margins and gap sizes all the way to colors, shadows, and even background images.&lt;/p>
+&lt;p>&lt;strong>Getting the Pro version&lt;/strong>&lt;/p>
+&lt;p>If you wanna get the Pro version directly, you can do it here: &lt;a href="https://apps.apple.com/app/mykeyboard-pro-custom-keyboard/id1562086519">MyKeyboard Pro on the AppStore&lt;/a>.&lt;/p>
+&lt;p>If you already have the free version, you can unlock &lt;em>all&lt;/em> features of the Pro version as an in-app purchase. There is &lt;em>no difference&lt;/em> between the IAP version and the Pro version on the AppStore.&lt;/p></description></item><item><title>Welcome</title><link>https://blog.quintschaf.com/posts/welcome/</link><pubDate>Tue, 01 Mar 2022 22:59:30 +0100</pubDate><guid>https://blog.quintschaf.com/posts/welcome/</guid><description>&lt;h1 id="welcome-to-our-blog">Welcome to our blog!&lt;/h1>
 &lt;p>We are Quintschaf, a small software engineering company from Germany.&lt;/p>
 &lt;h2 id="history">History&lt;/h2>
 &lt;p>In 2020, shortly after the Covid pandemic started manifesting, we (Jann and Marco) founded our company.
