@@ -4,6 +4,9 @@ title = 'Quintschaf Blog'
 theme = 'hugo-theme-monochrome'
 disqusShortname = 'quintschaf-blog'
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
 [build]
 writeStats = true
 
