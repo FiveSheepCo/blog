@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quintschaf Blog</title><link>https://blog.quintschaf.com/</link><description>Recent content on Quintschaf Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Oct 2022 18:08:46 +0200</lastBuildDate><atom:link href="https://blog.quintschaf.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrating from SwiftKey</title><link>https://blog.quintschaf.com/posts/migrating-from-swiftkey/</link><pubDate>Thu, 06 Oct 2022 18:08:46 +0200</pubDate><guid>https://blog.quintschaf.com/posts/migrating-from-swiftkey/</guid><description>&lt;h1 id="swiftkey-is-gone">SwiftKey is gone&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quintschaf Blog</title><link>https://blog.quintschaf.com/</link><description>Recent content on Quintschaf Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Apr 2023 18:42:00 +0200</lastBuildDate><atom:link href="https://blog.quintschaf.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducing MapItemPicker: A Powerful Location Picker for SwiftUI</title><link>https://blog.quintschaf.com/posts/map-item-picker/</link><pubDate>Tue, 18 Apr 2023 18:42:00 +0200</pubDate><guid>https://blog.quintschaf.com/posts/map-item-picker/</guid><description>&lt;h1 id="introducing-mapitempicker-a-powerful-location-picker-for-swiftui">Introducing MapItemPicker: A Powerful Location Picker for SwiftUI&lt;/h1>
+&lt;p>As an app developer, there are times when you need to create a view that allows users to find and select locations. However, Apple doesn&amp;rsquo;t provide a built-in view for this in their frameworks, and much of the information displayed in the Maps app that makes it easy to search for and discover map items is not exposed on &lt;code>MKMapItem&lt;/code>. That&amp;rsquo;s why we created &lt;strong>MapItemPicker&lt;/strong>, a simple, yet highly customizable and powerful location picker for SwiftUI that uses data from MapKit, OpenStreetMaps, and Wikidata to deliver a comprehensive map item picker experience.&lt;/p>
+&lt;h2 id="what-is-mapitempicker">What is MapItemPicker?&lt;/h2>
+&lt;p>MapItemPicker is a SwiftUI library that provides an easy-to-use and customizable location picker for your app. It combines data from MapKit, OpenStreetMaps, and Wikidata to offer a beautiful and feature-rich map item picker.&lt;/p>
+&lt;p>The library has built-in support for annotations and overlays, making it simple to add custom markers and lines on the map. Additionally, it provides a powerful search and filtering functionality, allowing users to quickly find the location they need.&lt;/p>
+&lt;h2 id="getting-started">Getting Started&lt;/h2>
+&lt;p>To start using MapItemPicker, simply add it to your project via Swift Package Manager. Once installed, you can use the convenience method to add a simple picker to your app:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-Swift" data-lang="Swift">&lt;span style="display:flex;">&lt;span>.mapItemPickerSheet(isPresented: &lt;span style="color:#960050;background-color:#1e0010">$&lt;/span>showsSheet) { mapItem &lt;span style="color:#66d9ef">in&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;Map Item:&amp;#34;&lt;/span>, mapItem)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For more advanced use cases, you can customize the picker using the parameters of &lt;code>MapItemPicker&lt;/code> view:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-Swift" data-lang="Swift">&lt;span style="display:flex;">&lt;span>MapItemPicker(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> annotations: [MKPointAnnotation.chicago],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> overlays: [MKPolyline.newYorkToLosAngeles],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> showsLocationButton: &lt;span style="color:#66d9ef">false&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> additionalTopRightButtons: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .&lt;span style="color:#66d9ef">init&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> imageName: &lt;span style="color:#e6db74">&amp;#34;magnifyingglass&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> handler: { searchControllerShown = &lt;span style="color:#66d9ef">true&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> )
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> initialRegion: MKCoordinateRegion.unitedStates,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> standardView: { Text(&lt;span style="color:#e6db74">&amp;#34;Standard View&amp;#34;&lt;/span>) },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> searchControllerShown: &lt;span style="color:#960050;background-color:#1e0010">$&lt;/span>searchControllerShown,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> standardSearchView: { Text(&lt;span style="color:#e6db74">&amp;#34;Search View&amp;#34;&lt;/span>) }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Check out the full &lt;a href="https://github.com/Quintschaf/MapItemPicker/blob/main/README.md">README&lt;/a> for more examples and detailed usage instructions.&lt;/p>
+&lt;h2 id="localization">Localization&lt;/h2>
+&lt;p>MapItemPicker includes localizations for categories, titles of sections in the views, and other strings. Currently, only English and German are supported. If you can provide localization for any other language, please submit a PR. You can copy the strings from the English &lt;code>Localizable.strings&lt;/code> file at &lt;code>Sources/MapItemPicker/Resources/en.lproj&lt;/code>. It&amp;rsquo;s not a lot of localization keys, and you&amp;rsquo;ll probably be done in 5 minutes.&lt;/p>
+&lt;h2 id="future-plans-and-contributions">Future Plans and Contributions&lt;/h2>
+&lt;p>MapItemPicker is under active development, and there are many exciting features planned for future releases, including:&lt;/p>
+&lt;ul>
+&lt;li>Improved location type handling&lt;/li>
+&lt;li>More data sources&lt;/li>
+&lt;li>Editing opening hours and reporting back to OpenStreetMaps&lt;/li>
+&lt;li>Additional filters in search&lt;/li>
+&lt;li>Unit tests and UI tests&lt;/li>
+&lt;li>Compiled documentation&lt;/li>
+&lt;/ul>
+&lt;p>If you&amp;rsquo;re interested in contributing to MapItemPicker or have any suggestions, feel free to &lt;a href="https://github.com/Quintschaf/MapItemPicker/issues">open an issue&lt;/a> or submit a pull request.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>MapItemPicker is an essential tool for developers looking to add a powerful and customizable location picker to their SwiftUI apps. With its combination of MapKit, OpenStreetMaps, and Wikidata, MapItemPicker offers a comprehensive solution that is both user-friendly and feature-rich. By integrating this library into your projects, you&amp;rsquo;ll save valuable development time and provide your users with an intuitive and enjoyable experience when searching for and selecting locations.&lt;/p>
+&lt;p>Don&amp;rsquo;t hesitate to give MapItemPicker a try and take advantage of its capabilities to enhance your app&amp;rsquo;s functionality. Remember that contributions are always welcome, so feel free to join the project and help improve this fantastic tool even further.&lt;/p>
+&lt;p>Happy coding!&lt;/p></description></item><item><title>Migrating from SwiftKey</title><link>https://blog.quintschaf.com/posts/migrating-from-swiftkey/</link><pubDate>Thu, 06 Oct 2022 18:08:46 +0200</pubDate><guid>https://blog.quintschaf.com/posts/migrating-from-swiftkey/</guid><description>&lt;h1 id="swiftkey-is-gone">SwiftKey is gone&lt;/h1>
 &lt;p>On September 28th 2022, Microsoft announced that it would pull the popular keyboard &lt;strong>SwiftKey&lt;/strong> from Apple&amp;rsquo;s AppStore. The announcement came suddenly and without much time to react. As of October 5th 2022, SwiftKey is no longer available on the AppStore.&lt;/p>
 &lt;p>If you&amp;rsquo;re one of the people impacted, you&amp;rsquo;ll now have to make a hard decision:&lt;/p>
 &lt;blockquote>
