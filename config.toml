@@ -19,3 +19,6 @@ enableTwitterCards = true
 enableSiteSearch = true
 # Footer
 footer = 'Copyright © 2022 Quintschaf GbR'
+
+[markup.goldmark.renderer]
+unsafe = true
