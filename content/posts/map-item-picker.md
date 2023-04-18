@@ -2,6 +2,9 @@
 title: "Introducing MapItemPicker"
 date: 2023-04-18T18:42:00+02:00
 draft: false
+taxonomies:
+    category: ["SwiftUI", "iOS", "Library"]
+    tag: ["Map", "MapView", "Swift", "SwiftUI", "Library"]
 ---
 
 # Introducing [MapItemPicker](https://github.com/Quintschaf/MapItemPicker): A Powerful Location Picker for SwiftUI

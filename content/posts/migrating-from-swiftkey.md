@@ -2,6 +2,9 @@
 title: "Migrating from SwiftKey"
 date: 2022-10-06T18:08:46+02:00
 draft: false
+taxonomies:
+    category: ["App", "iOS"]
+    tag: ["SwiftKey", "MyKeyboard", "Keyboard", "App", "Migration"]
 ---
 
 # SwiftKey is gone
