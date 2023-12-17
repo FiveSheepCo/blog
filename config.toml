@@ -2,7 +2,7 @@ baseURL = 'https://blog.fivesheep.co/'
 languageCode = 'en-us'
 title = 'FiveSheep Blog'
 theme = 'hugo-theme-monochrome'
-disqusShortname = 'quintschaf-blog'
+disqusShortname = 'fivesheep-blog'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
