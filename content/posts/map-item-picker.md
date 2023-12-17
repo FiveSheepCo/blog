@@ -7,7 +7,7 @@ taxonomies:
     tag: ["Map", "MapView", "Swift", "SwiftUI", "Library"]
 ---
 
-# Introducing [MapItemPicker](https://github.com/Quintschaf/MapItemPicker): A Powerful Location Picker for SwiftUI
+# Introducing [MapItemPicker](https://github.com/FiveSheepCo/MapItemPicker): A Powerful Location Picker for SwiftUI
 
 As an app developer, there are times when you need to create a view that allows users to find and select locations. However, Apple doesn't provide a built-in view for this in their frameworks, and much of the information displayed in the Maps app that makes it easy to search for and discover map items is not exposed on `MKMapItem`. That's why we created **MapItemPicker**, a simple, yet highly customizable and powerful location picker for SwiftUI that uses data from MapKit, OpenStreetMaps, and Wikidata to deliver a comprehensive map item picker experience.
 
@@ -56,7 +56,7 @@ MapItemPicker(
 )
 ```
 
-Check out the full [README](https://github.com/Quintschaf/MapItemPicker/blob/main/README.md) for more examples and detailed usage instructions.
+Check out the full [README](https://github.com/FiveSheepCo/MapItemPicker/blob/main/README.md) for more examples and detailed usage instructions.
 
 ## Localization
 
@@ -73,7 +73,7 @@ MapItemPicker is under active development, and there are many exciting features 
 - Unit tests and UI tests
 - Compiled documentation
 
-If you're interested in contributing to MapItemPicker or have any suggestions, feel free to [open an issue](https://github.com/Quintschaf/MapItemPicker/issues) or submit a pull request.
+If you're interested in contributing to MapItemPicker or have any suggestions, feel free to [open an issue](https://github.com/FiveSheepCo/MapItemPicker/issues) or submit a pull request.
 
 ## Conclusion
 

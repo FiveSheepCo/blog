@@ -8,7 +8,7 @@ taxonomies:
 ---
 
 # QSChatView: A beautiful data-driven chat view for iOS and macOS
-> In today's fast-paced world, chat applications have become an essential means of communication. With the increasing popularity of SwiftUI and its easy-to-use, declarative syntax, developers are always on the lookout for reliable libraries to build messaging interfaces for their apps. Look no further! Quintschaf has created a SwiftUI library called QSChatView that provides a customizable chat view for rendering static and interactive chat conversations, similar to popular messaging apps like WhatsApp and Signal.
+> In today's fast-paced world, chat applications have become an essential means of communication. With the increasing popularity of SwiftUI and its easy-to-use, declarative syntax, developers are always on the lookout for reliable libraries to build messaging interfaces for their apps. Look no further! FiveSheep has created a SwiftUI library called QSChatView that provides a customizable chat view for rendering static and interactive chat conversations, similar to popular messaging apps like WhatsApp and Signal.
 
 QSChatView is a fully interactive, data-driven chat view that works on iOS, macOS, and Catalyst. It supports light and dark mode, and offers various customization options.
 
@@ -166,4 +166,4 @@ struct MyChatView: View {
 
 QSChatView is an excellent SwiftUI library for creating customizable and interactive chat views for your iOS and macOS applications. The examples provided in the README demonstrate how easy it is to implement and customize the chat view according to your application's requirements. By leveraging the power of SwiftUI and QSChatView, you can create beautiful, data-driven chat applications for iOS and macOS.
 
-Give QSChatView a try by visiting the [GitHub repository](https://github.com/Quintschaf/QSChatView) and start building amazing chat experiences for your users today!
+Give QSChatView a try by visiting the [GitHub repository](https://github.com/FiveSheepCo/QSChatView) and start building amazing chat experiences for your users today!

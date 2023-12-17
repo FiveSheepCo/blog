@@ -1,6 +1,6 @@
-baseURL = 'https://blog.quintschaf.com/'
+baseURL = 'https://blog.fivesheep.co/'
 languageCode = 'en-us'
-title = 'Quintschaf Blog'
+title = 'FiveSheep Blog'
 theme = 'hugo-theme-monochrome'
 disqusShortname = 'quintschaf-blog'
 
@@ -12,13 +12,13 @@ writeStats = true
 
 [params]
 # SEO
-author = 'Quintschaf'
+author = 'FiveSheep'
 enableOpenGraph = true
 enableTwitterCards = true
 # Features
 enableSiteSearch = true
 # Footer
-footer = 'Copyright © 2022 Quintschaf GbR'
+footer = 'Copyright © 2022 FiveSheep OÜ, Quintschaf GbR'
 
 [markup.goldmark.renderer]
 unsafe = true
