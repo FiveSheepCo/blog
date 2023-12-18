@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on FiveSheep Blog</title><link>https://blog.fivesheep.co/posts/</link><description>Recent content in Posts on FiveSheep Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://blog.fivesheep.co/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducing ChatView</title><link>https://blog.fivesheep.co/posts/qschatview/</link><pubDate>Wed, 19 Apr 2023 00:00:00 +0200</pubDate><guid>https://blog.fivesheep.co/posts/qschatview/</guid><description>&lt;h1 id="qschatview-a-beautiful-data-driven-chat-view-for-ios-and-macos">QSChatView: A beautiful data-driven chat view for iOS and macOS&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on FiveSheep Blog</title><link>https://blog.fivesheep.co/posts/</link><description>Recent content in Posts on FiveSheep Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 17 Dec 2023 02:29:00 +0100</lastBuildDate><atom:link href="https://blog.fivesheep.co/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>We're FiveSheep now!</title><link>https://blog.fivesheep.co/posts/fivesheep-rebrand/</link><pubDate>Sun, 17 Dec 2023 02:29:00 +0100</pubDate><guid>https://blog.fivesheep.co/posts/fivesheep-rebrand/</guid><description>&lt;h1 id="welcome-to-fivesheep">Welcome to FiveSheep&lt;/h1>
+&lt;p>Hello to our amazing community,&lt;/p>
+&lt;p>As the sun sets on 2023, we stand at the threshold of a new era, embracing change, growth, and innovation. We are
+thrilled to announce that Quintschaf GbR is now FiveSheep OÜ! This is more than just a name change; it&amp;rsquo;s a
+transformation that reflects our global vision and the exciting journey ahead.&lt;/p>
+&lt;h2 id="a-look-back-at-2023-quiet-but-transformative">A Look Back at 2023: Quiet but Transformative&lt;/h2>
+&lt;p>This year might have seemed quieter on the surface, but beneath the calm, the wheels of progress were turning at full
+speed. While we released only one app, Polyphasic - The clean and modern sleep cycle tracker, its success and positive
+reception were heartwarming. It&amp;rsquo;s a testament to our commitment to quality over quantity.&lt;/p>
+&lt;p>Our flagship apps, MyKeyboard and Chatalyzer, continued to bring joy and utility to our users, receiving several
+enhancements and updates. Your feedback has always been our guiding star, helping us refine and perfect our offerings.&lt;/p>
+&lt;h2 id="the-rebranding-why-fivesheep">The Rebranding: Why FiveSheep?&lt;/h2>
+&lt;p>We, Jann and I (Marco), founded Quintschaf with a vision to create innovative and enjoyable iOS apps. The somewhat
+strange company name was an amalgamation of our surnames. As we expanded our horizons, reaching out to international
+customers, we realized the need for a name that resonates globally. FiveSheep embodies this spirit - it&amp;rsquo;s unique,
+memorable, and bridges language barriers with ease.&lt;/p>
+&lt;p>Moreover, transitioning to FiveSheep OÜ and moving our business operations to Estonia is a strategic move. It offers us
+more flexibility and opportunities than our previous company structure. This shift opens doors to more ambitious
+projects, enabling us to dream bigger and reach higher.&lt;/p>
+&lt;h2 id="whats-in-store-for-2024">What&amp;rsquo;s in Store for 2024?&lt;/h2>
+&lt;p>The upcoming year is shaping up to be an exciting one! We have been toiling away behind the scenes on some incredible
+new projects. Expect to see at least two groundbreaking apps in the first quarter alone.&lt;/p>
+&lt;p>Our focus on leveraging state-of-the-art artificial intelligence means we&amp;rsquo;re not just keeping up with trends - we&amp;rsquo;re
+setting them. And for our loyal MyKeyboard users, get ready for a delightful surprise that will redefine your
+experience!&lt;/p>
+&lt;h2 id="a-heartfelt-thank-you">A Heartfelt Thank You&lt;/h2>
+&lt;p>Our journey so far has been exhilarating, and your support has been the cornerstone of our success. As we embark on this
+new chapter as FiveSheep, we invite you to continue this adventure with us. Stay tuned for groundbreaking apps and
+innovations that will make 2024 an unforgettable year.&lt;/p>
+&lt;p>To innovation, to creativity, and to the future - welcome to FiveSheep!&lt;/p>
+&lt;p>Warm regards,&lt;/p>
+&lt;p>Marco &amp;amp; Jann&lt;br>
+FiveSheep OÜ&lt;/p></description></item><item><title>Introducing ChatView</title><link>https://blog.fivesheep.co/posts/qschatview/</link><pubDate>Wed, 19 Apr 2023 00:00:00 +0200</pubDate><guid>https://blog.fivesheep.co/posts/qschatview/</guid><description>&lt;h1 id="qschatview-a-beautiful-data-driven-chat-view-for-ios-and-macos">QSChatView: A beautiful data-driven chat view for iOS and macOS&lt;/h1>
 &lt;blockquote>
 &lt;p>In today&amp;rsquo;s fast-paced world, chat applications have become an essential means of communication. With the increasing popularity of SwiftUI and its easy-to-use, declarative syntax, developers are always on the lookout for reliable libraries to build messaging interfaces for their apps. Look no further! FiveSheep has created a SwiftUI library called QSChatView that provides a customizable chat view for rendering static and interactive chat conversations, similar to popular messaging apps like WhatsApp and Signal.&lt;/p>
 &lt;/blockquote>
