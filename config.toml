@@ -2,7 +2,7 @@ baseURL = 'https://blog.fivesheep.co/'
 languageCode = 'en-us'
 title = 'FiveSheep Blog'
 theme = 'hugo-theme-monochrome'
-disqusShortname = 'fivesheep-blog'
+# disqusShortname = 'fivesheep-blog'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -18,7 +18,7 @@ enableTwitterCards = true
 # Features
 enableSiteSearch = true
 # Footer
-footer = 'Copyright © 2022 FiveSheep OÜ, Quintschaf GbR'
+footer = 'Copyright © 2024 FiveSheep OÜ, 2022 Quintschaf GbR'
 
 [markup.goldmark.renderer]
 unsafe = true
